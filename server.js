@@ -94,4 +94,4 @@ client.on('message', msg => {
 	if (!msg.content.startsWith(tokens.prefix)) return;
 	if (commands.hasOwnProperty(msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0])) commands[msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0]](msg);
 });
-client.login("NDc5ODk3OTI2MDE4MTM4MTEz.Dlh78A.c1_eli8EI7Nb1KAqcieJd-HE3n0");
+client.login(process.env.BOT_TOKEN);
