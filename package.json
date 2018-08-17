@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A v11 Discord.JS music bot in 100 lines or less",
   "main": "server.js",
+  "permissions": 8,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
